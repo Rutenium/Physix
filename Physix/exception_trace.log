@@ -1,0 +1,28 @@
+
+physix: system execution failed.
+Following is the set of recorded exceptions:
+
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+OBJECT              get_w_image            Unhandled exception:         
+<00000000039704CC>  (From SDL_WRAPPER)     External event.               Fail
+-------------------------------------------------------------------------------
+OBJECT              get_w_image                                         
+<00000000039704CC>  (From SDL_WRAPPER)     Routine failure.              Fail
+-------------------------------------------------------------------------------
+OBJECT              make @7                                             
+<00000000039704CC>  (From IMAGE)           Routine failure.              Fail
+-------------------------------------------------------------------------------
+OBJECT              make @1                                             
+<00000000039704CC>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+OBJECT_LIST         add @2                                              
+<0000000003970484>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         main @7                                             
+<0000000003970418>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<0000000003970418>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
